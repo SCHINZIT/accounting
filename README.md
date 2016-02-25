@@ -16,3 +16,10 @@ In the hope that om.next is gonna give me the options to have a consistent SPA-B
 For better REPL experience install rlwrap
 Install rlwrap:
 `aptitude install rlwrap`
+
+### Starting REPL
+
+`lein run -m clojure.main script/figwheel.clj`
+
+or with rlwrap installed:  
+`rlwrap lein run -m clojure.main script/figwheel.clj`
