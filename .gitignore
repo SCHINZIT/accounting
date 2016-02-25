@@ -1,0 +1,6 @@
+*.js.map
+*.edn
+*.js
+target
+*.log
+*.swp
